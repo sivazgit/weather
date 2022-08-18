@@ -1,0 +1,40 @@
+body{
+    background-image: url('./weather.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2{
+    color: lightcyan;
+    font-size: larger;
+}
+
+.content{
+    background: linear-gradient(#bdc3c7 ,#2c3e50);
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px; 
+}
+
+#input1,#bt1{
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#con,#hum,#win,#pre{
+    text-align: left;
+    padding: 10px;
+}
+
+.details h5{
+    color: indigo;
+}
+
+.htmldata{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: larger;
+    color:#2c3e50
+    
+}
